@@ -1,0 +1,3 @@
+http://graph.facebook.com/1560762397530522/albums (Oxford)
+
+http://graph.facebook.com/1569777426629019/photos?fields=id,source (piximagic)
