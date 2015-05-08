@@ -34,8 +34,8 @@
                     <p class="lead">The following demo uses the <strong>Facebook Graph API</strong> to show a chosen gallery on another website. This means a client or brand can manage their photo gallery easily with the Facebook interface, and the changes will be reflected on their marketing website.</p>
                     <p>Due to the limitations of the Facebook API, this demo uses a combination of PHP, JavaScript and CSS to achieve the effect below.</p>
                     <div id="gallery">
-                        <h2>PixiFoto Oxford</h2>
-                        <p>Showing the latest photos from PixiFoto Oxford.</p>
+                        <h2>Beautiful Hawaii</h2>
+                        <p>Showing the latest photos from <a href="https://www.facebook.com/pages/I-Love-Nature/147418591939240" target="_blank">I Love Nature's</a> "Beautiful Hawaii" album. *</p>
                         <div id="loading"></div>
                         <ul class="large-block-grid-4 medium-block-grid-4 small-block-grid-2"></ul>
                     </div>
@@ -47,7 +47,12 @@
             <div class="row">
                 <div class="large-12 columns">
                     <div class="inner-footer">
-                        <p><small>Facebook Gallery - FB Graph API Test, 2015.</small></p>
+                        <p>
+                            <small>
+                                * I am in no way endorsing "I Love Nature", but hope they don't mind having their lovely photos displayed here, with attribution, for the purposes of a simple open source coding example.
+                                <br />Facebook Gallery - FB Graph API Test, 2015.
+                            </small>
+                        </p>
                     </div>
                 </div>
             </div>

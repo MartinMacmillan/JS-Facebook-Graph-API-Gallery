@@ -1,8 +1,8 @@
 <?php
-// PixiFoto Oxford
-$fb_page_id = "1560762397530522";
+// I Love Nature
+$fb_page_id = "147418591939240";
  
-$json_album_link = "http://graph.facebook.com/{$fb_page_id}/albums?fields=id,name,description,link,cover_photo,count";
+$json_album_link = "http://graph.facebook.com/{$fb_page_id}/albums?fields=id,name,description,link,cover_photo,count&limit=100";
 $json_album_contents = file_get_contents($json_album_link);
  
 $album_obj = json_decode($json_album_contents, true);
@@ -19,7 +19,7 @@ for ($i = 0; $i < $album_count; $i += 1) {
     $img_count = $album_obj['data'][$i]['count'];
  
     // Include or exclude albums
-    if ($name === 'piximagic') {
+    if ($name === 'Beautiful Hawaii') {
  
         $json_photo_link = "http://graph.facebook.com/{$album_id}/photos?fields=id,source,created_time";
         $json_photo_contents = file_get_contents($json_photo_link);
